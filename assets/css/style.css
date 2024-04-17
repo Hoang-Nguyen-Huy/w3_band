@@ -22,6 +22,7 @@ html {
 4. Kiểu dáng
  */
 
+/* Common */
  .clear {
     clear: both;
  }
@@ -29,6 +30,31 @@ html {
  .text-white {
     color: #fff !important;
  }
+
+ .text-center {
+    text-align: center !important;
+ }
+
+ .row {
+    margin-left: -8px;
+    margin-right: -8px;
+ }
+
+ .col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+ }
+
+ .col-half {
+    width: 50%;
+ }
+
+ .col-third {
+    width: 33.33333%;
+ }
+
+
 
 #main {
 
@@ -180,12 +206,6 @@ html {
     margin-top: 48px;
 }
 
-#content .member-item {
-    float: left;
-    width: 33.33333%;
-    text-align: center;
-}
-
 #content .member-name {
     font-size: 15px;
 }
@@ -234,12 +254,6 @@ html {
 }
 
 /* Places */
-
-.place-item {
-    float: left;
-    width: 33.33333%;
-    padding: 0 8px;
-}
 .place-img {
     width: 100%;
     display: block;
@@ -255,7 +269,8 @@ html {
     background-color: #fff;
 }
 .places-list {
-    margin: 32px -8px 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 .place-heading {
     font-size: 15px;
