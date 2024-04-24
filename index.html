@@ -32,13 +32,15 @@
             </ul>
             <!-- End: Nav -->
 
+            <!-- Begin: Mobile Menu Button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+            <!-- End: Mobile Menu Button -->
+
             <!-- Begin: Search Button -->
             <div class="search-btn">
                 <div class="search-icon ti-search"></div>
-            </div>
-
-            <div id="mobile-menu" class="mobile-menu-btn">
-                <i class="menu-icon ti-menu"></i>
             </div>
             <!-- End: Search Button -->
         </div>
@@ -264,7 +266,7 @@
         var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
         for (var i = 0; i < menuItems.length; i++) {
             var menuItem = menuItems[i];
-            
+
             menuItem.onclick = function() {
                 header.style.height = null;
             }
